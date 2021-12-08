@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+.roboto{
+font-family: 'Roboto', sans-serif;
+}
+.quicksand{
+font-family: 'Quicksand', sans-serif;  
+}
+
+#header .fixed{
+width: 33%;
+height: 100%;
+position: fixed;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;/*qatorma qator tushishi uchun*/
+background: url(../img/0.png);
+background-repeat: no-repeat;
+background-size: cover;    
+}
+#header .fixed img{
+    width: 150px;
+}
+.container-fluid img{
+    width: 100%;
+    height: 50%;
+}
+@media (max-width: 768px) {
+    #header .fixed{
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+}
